@@ -1,12 +1,33 @@
-/* 隐藏首页feed流 */
-.feeds-container,
-.note-list,
-.note-item {
+/* 只在首页隐藏feed流 */
+body[data-uri="/"] .feeds-container,
+body[data-uri="/"] .note-list,
+body[data-uri="/"] .note-item,
+body[data-uri="/explore"] .explore-feed-container,
+body[data-uri="/explore"] .explore-feed-items {
     display: none !important;
 }
 
-/* 隐藏发现页feed流 */
-.explore-feed-container,
-.explore-feed-items {
-    display: none !important;
+.redzen-reminder {
+    position: relative;
+    z-index: 9999;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.redzen-reminder input:focus {
+    outline: none;
+    border-color: #ff2442 !important;
+    box-shadow: 0 0 0 2px rgba(255, 36, 66, 0.2);
+}
+
+@media (prefers-color-scheme: dark) {
+    .redzen-reminder {
+        background: #2c2c2c !important;
+        color: #ffffff;
+    }
+    
+    .redzen-reminder input {
+        background: #3c3c3c !important;
+        color: #ffffff;
+        border-color: #4c4c4c !important;
+    }
 } 
