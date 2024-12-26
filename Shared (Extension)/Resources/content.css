@@ -1,0 +1,12 @@
+/* 隐藏首页feed流 */
+.feeds-container,
+.note-list,
+.note-item {
+    display: none !important;
+}
+
+/* 隐藏发现页feed流 */
+.explore-feed-container,
+.explore-feed-items {
+    display: none !important;
+} 
