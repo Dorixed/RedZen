@@ -1,10 +1,10 @@
 {
     "extension_name": {
         "message": "RedZen",
-        "description": "The display name for the extension."
+        "description": "A Safari extension to help users stay focused while using Xiaohongshu"
     },
     "extension_description": {
-        "message": "RedZen helps you stay focused while using Xiaohongshu by temporarily hiding the feed stream on the homepage. Perfect for when you want to search for specific content without getting distracted.",
-        "description": "Description of what the extension does."
+        "message": "RedZen helps you stay focused by hiding feed streams on Xiaohongshu homepage",
+        "description": "A brief description of the extension's functionality"
     }
 }
