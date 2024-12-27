@@ -13,6 +13,7 @@
           "value" : "tinted"
         }
       ],
+      "filename" : "four-leaf-clover.1024 1.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -53,17 +54,19 @@
       "size" : "256x256"
     },
     {
+      "filename" : "four-leaf-clover.512 1.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "256x256"
     },
     {
+      "filename" : "four-leaf-clover.512.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "512x512"
     },
     {
-      "filename" : "four-leaf-clover.1024 1.png",
+      "filename" : "four-leaf-clover.1024-2.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "512x512"
